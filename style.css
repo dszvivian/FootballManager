@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+.m{
+    padding: 0px;
+}
+
+.homeMainImg{
+    width: fit-content;
+    height:100vh;
+    float: right;
+}
+
+.homeButton{
+    
+}

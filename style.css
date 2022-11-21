@@ -14,5 +14,24 @@ body{
 }
 
 .homeButton{
-    
+    background-color: orange;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 1.3em;
+    cursor: pointer;
+    text-decoration:solid;
+    border-radius: 10rem;
+}
+
+.homeButton:hover{
+    background-color: brown;
+}
+
+.homeButtons{
+    justify-content:flex-start;
+    float: left;
+    width: 60%;
+    height: fit-content;
 }

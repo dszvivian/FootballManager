@@ -7,17 +7,54 @@
     <link rel="icon" href="./resources/soccer-field.png" type="image/icon type">
     <link rel="stylesheet" href="style.css">
     <title>Football Manager</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
 
     
-    <img class="homeMainImg" src="./resources/josemorinho.png" alt="Jose Morinho">
-    
 
-    <div class="homeButtons">
-        <button class="homeButton">Create new team</button>
-        <button class="homeButton">Compete with Other Players</button>
-    </div>
+    <header>
+        <!-- <img class="header_logo" src="./resources/soccer-field.png" alt=""> -->
+        <h3 class="header_logo">Football Manager</h3>
+        <nav>
+            <ul class="top_nav_home">
+                <li>
+                    
+                    <form action="topnav_search">
+                        <input type="text" placeholder="Search" name="search">
+                        <button type="submit">submit</button>
+                      </form>
+
+                </li>
+                <li><button type="button" class="topnav_login" href="#">Login</button></li>
+                <li><button type="button" class="topnav_register" >Register</button></li>
+            </ul>
+          </nav>
+    </header>
+
+    <section class="main">
+
+        <div class="mainButtons">
+
+            <button type="button">Create a Team</button>
+            <button type="button">Top Leagues</button>
+
+        </div>
+
+        <div class="cr7img">
+            <img src="./resources/1495644684fc-barcelona-2017-png-clipart.png" alt="">
+        </div>
+
+           
+   
+    </section>
+
+  
     
 </body>
 </html>

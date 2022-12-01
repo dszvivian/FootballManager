@@ -1,37 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body{
     margin: 0;
-    background-color: aqua;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://cdn.pixabay.com/photo/2020/04/02/11/37/football-pitch-4994688_960_720.jpg);
+    background-size: cover;
 }
 
-.m{
-    padding: 0px;
+
+/* header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.homeMainImg{
-    width: fit-content;
-    height:100vh;
-    float: right;
+
+ul{
+    display:inline-flex;
+    margin-left: 5px;
+    list-style-type: none;
+   align-items: flex-end;
+} */
+
+.header_logo{
+   height: max-content;
+   padding: 3px;
+   font-family: 'Montserrat', sans-serif;
+   color: antiquewhite;
+   margin-left: 10px;
+   width: 50px;
 }
 
-.homeButton{
-    background-color: orange;
-    color: white;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height:max-content;
+}
+
+
+
+.top_nav_home{
+    list-style-type: none;
+}
+
+.topnav_search{
     border: none;
-    font-weight: bold;
-    padding: 1em;
-    font-size: 1.3em;
+    padding: 0.4rem;
+    display: inline-block;
+}
+
+
+
+.top_nav_home li{
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.topnav_login{
+    padding: 0.6rem 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-color: black;
+    border-color: whitesmoke;
+    border-radius: 0.5em;
+    border-width: 0.1em;
+}
+
+.topnav_register{
+    background-color: red;
+    color: black;
+    text-decoration: black;
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
     cursor: pointer;
-    text-decoration:solid;
-    border-radius: 10rem;
+    border-radius: 0.5em;
 }
 
-.homeButton:hover{
-    background-color: brown;
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.homeButtons{
-    justify-content:flex-start;
-    float: left;
-    width: 60%;
-    height: fit-content;
+.mainButtons{
+    display:grid;
+    padding: 5em;
+    
 }
+
+.main  button{
+    display: block;
+    background-color: rgb(211, 25, 25);
+    color: black;
+    text-decoration: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 2rem 6rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin: 2rem;
+    border-width: 0;
+}
+
+.main  button:hover{
+    background-color: rgb(82, 14, 14);
+}
+
+
+.cr7img img{
+    height: 100vh;
+    min-width: fit-content;
+}
+
+
